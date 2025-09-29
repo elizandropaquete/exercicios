@@ -1,0 +1,2 @@
+# exercicios
+curso de algoritmo
