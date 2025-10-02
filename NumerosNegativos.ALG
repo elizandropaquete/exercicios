@@ -1,4 +1,6 @@
-algoritmo "semnome"
+algoritmo "NumerosNegativos"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 var
 N,C,TotN:inteiro
 inicio
@@ -7,11 +9,11 @@ inicio
       Repita
        escreval("Digite um numero :")
        leia(N)
-
-       TotN < TotN + 1
+          se(N<0)entao
+       TotN <- TotN+1
        fimse
        C <- C + 1
-       ate(cont > 5)
-       escreval("Foram digitados" , T o t N , " V a l o r e s N e g a t i v")
+       ate(C > 5)
+       escreval("Foram digitados " , TotN , " Valores ")
 
 fimalgoritmo
